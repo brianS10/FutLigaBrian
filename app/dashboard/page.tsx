@@ -8,7 +8,7 @@ import type { Team, Player, Match, MatchStatistics } from "@/lib/types";
 import { Nav } from "@/components/layout/nav";
 import { Footer } from "@/components/layout/footer";
 import {
-  LayoutDashboard, Trophy, Users, Calendar, BarChart2,
+  LayoutDashboard, Users, Calendar, BarChart2,
   Plus, Edit, Trash2, Save, X, Search, ChevronRight,
   TrendingUp, Zap, Shield, Target
 } from "lucide-react";

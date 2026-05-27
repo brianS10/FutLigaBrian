@@ -265,13 +265,11 @@ export default function Home() {
               </Link>
               <Link href="/auth/signin" id="cta-admin">
                 <button
-                  className="w-full sm:w-auto rounded-2xl px-8 py-4 text-base font-extrabold transition-all duration-200"
+                  className="w-full sm:w-auto rounded-2xl px-8 py-4 text-base font-extrabold transition-all duration-200 hover:bg-white/5"
                   style={{
                     border: "2px solid rgba(255,250,202,0.35)",
                     color: "#FFFACA",
                   }}
-                  onMouseEnter={(e) => (e.currentTarget.style.background = "rgba(255,250,202,0.08)")}
-                  onMouseLeave={(e) => (e.currentTarget.style.background = "transparent")}
                 >
                   🔑 Administrar Liga
                 </button>

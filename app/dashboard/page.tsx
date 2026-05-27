@@ -1276,7 +1276,7 @@ export default function AdminDashboardPage() {
 
               {/* Matches grouped by Jornada */}
               {(() => {
-                const jornadas = Array.from(new Set(matches.map((m) => m.matchday))).sort((a, b) => a - b);
+                const jornadas = Array.from(new Set(matches.map((m) => m.matchday ?? 1))).sort((a, b) => a - b);
                 return jornadas.map((jornada) => (
                   <div key={jornada}>
                     <div

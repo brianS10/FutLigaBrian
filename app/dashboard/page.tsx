@@ -1438,7 +1438,7 @@ export default function AdminDashboardPage() {
                           No hay partidos finalizados aún.
                         </p>
                         <p className="text-xs" style={{ color: "rgba(255,250,202,0.3)" }}>
-                          Ve a Partidos, edita uno y cambia su estado a "Finalizado".
+                          Ve a Partidos, edita uno y cambia su estado a &quot;Finalizado&quot;.
                         </p>
                         <button
                           onClick={() => setActiveTab("matches")}
